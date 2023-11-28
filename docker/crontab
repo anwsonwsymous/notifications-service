@@ -1,0 +1,2 @@
+* * * * * /usr/local/bin/php /app/cron/validate_emails.php 10000 10 >> /var/log/cron.log 2>&1
+*/5 * * * * /usr/local/bin/php /app/cron/send_emails.php 300 50 >> /var/log/cron.log 2>&1
